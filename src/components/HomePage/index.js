@@ -1,12 +1,12 @@
 import * as React from "react"
 import Particles from "react-particles-js"
-import homePageStyles from "./homePage.module.css"
-
+import * as homePageStyles from "./homePage.module.css"
+import CTLogo from "../../assets/CTLogo.inline.svg"
 
 const SecondPage = () => (
 
   <div id="particles">
-    <Particles
+    <Particles className={homePageStyles.particleField}
       params={{
         particles: {
           number: {
@@ -71,6 +71,27 @@ const SecondPage = () => (
         },
       }}>  
     </Particles>
+
+    <div className={homePageStyles.container}>
+      <div className={homePageStyles.Header}>
+        <h1>Connecticut's home for Web3 enthusiasts.</h1>
+        <h2>We hope you'll join us.</h2>
+      </div>
+      
+      <div className={homePageStyles.ctOutlineDiv}>
+        <CTLogo className={homePageStyles.CTLogo}/>
+      </div>
+
+      <div className={homePageStyles.socialsBox}>
+        <a href="https://discord.gg/eU3QcNYD">
+          <button className={homePageStyles.block}>Join Us On Discord</button>
+        </a>
+        <a href="https://twitter.com/ct3_dao">
+          <button className={homePageStyles.block}>Tweet At Us</button>
+        </a>
+      </div>
+    </div>
+      
   </div>
 )
 

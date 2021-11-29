@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `CT3 DAO`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    description: `Connecticut's home for Web3 enthusiasts. We hope you'll join us.`,
+    author: `@ct3_dao`,
+    siteUrl: `https://ct3dao.io/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -30,6 +30,14 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
+    },
+    {
+      resolve: `gatsby-plugin-react-svg`,
+      options: {
+        rule: {
+          include: /\.inline\.svg$/
+        }
+      }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
