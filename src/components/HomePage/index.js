@@ -83,7 +83,7 @@ const SecondPage = () => (
       </div>
 
       <div className={homePageStyles.socialsBox}>
-        <a href="https://discord.gg/eU3QcNYD">
+        <a href="https://discord.gg/WFwu6TTd8u">
           <button className={homePageStyles.block}>Join Us On Discord</button>
         </a>
         <a href="https://twitter.com/ct3_dao">
