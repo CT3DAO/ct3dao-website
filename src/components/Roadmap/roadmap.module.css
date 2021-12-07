@@ -7,8 +7,30 @@
   height: 100vh;
 }
 
+.roadmapContainer {
+  width: 40%;
+  margin-left: 30%;
+}
+
 .Header {
   text-align: center;
+  border-bottom: 5px solid #fff;
+  margin: 0em 8em;
+  padding: 2em;
+}
+
+.blockquoteLeft {
+  text-align: left;
+  border-left: 5px solid #fff;
+  margin: 1em 10px;
+  padding: 0.5em 10px;
+}
+
+.blockquoteRight {
+  text-align: right;
+  border-right: 5px solid #fff;
+  margin: 1em 10px;
+  padding: 0.5em 10px;
 }
 
 /* Blocks.cSS from The Sephist  */
