@@ -1,13 +1,12 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import Particles from "react-particles-js"
-import * as homePageStyles from "./homePage.module.css"
+import * as roadmapPageStyles from "./roadmapPage.module.css"
 import CTLogo from "../../assets/CTLogo.inline.svg"
 
-const HomePage = () => (
+const RoadmapPage = () => (
 
   <div id="particles">
-    <Particles className={homePageStyles.particleField}
+    <Particles className={roadmapPageStyles.particleField}
       params={{
         particles: {
           number: {
@@ -73,28 +72,22 @@ const HomePage = () => (
       }}>  
     </Particles>
 
-    <div className={homePageStyles.container}>
-      <div className={homePageStyles.Header}>
-        <h1>Connecticut's home for Web3 enthusiasts.</h1>
+    <div className={roadmapPageStyles.container}>
+      <div className={roadmapPageStyles.Header}>
+        <h1>CT3 DAO's Roadmap</h1>
         <h2>We hope you'll join us.</h2>
       </div>
       
-      <div className={homePageStyles.ctOutlineDiv}>
-        <CTLogo className={homePageStyles.CTLogo}/>
+      <div className={roadmapPageStyles.ctOutlineDiv}>
+        <CTLogo className={roadmapPageStyles.CTLogo}/>
       </div>
 
-      <div className={homePageStyles.roadmapButtonBox}>
-        <Link to="/roadmap/">
-          <button className={homePageStyles.block}>Peep the Roadmap</button>
-        </Link>
-      </div>
-
-      <div className={homePageStyles.socialsBox}>
+      <div className={roadmapPageStyles.socialsBox}>
         <a href="https://discord.gg/WFwu6TTd8u">
-          <button className={homePageStyles.block}>Join Us On Discord</button>
+          <button className={roadmapPageStyles.block}>Join Us On Discord</button>
         </a>
         <a href="https://twitter.com/ct3_dao">
-          <button className={homePageStyles.block}>Tweet At Us</button>
+          <button className={roadmapPageStyles.block}>Tweet At Us</button>
         </a>
       </div>
     </div>
@@ -102,4 +95,4 @@ const HomePage = () => (
   </div>
 )
 
-export default HomePage
+export default RoadmapPage
