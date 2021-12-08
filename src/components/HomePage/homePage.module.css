@@ -3,12 +3,13 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   height: 100vh;
 }
 
 .Header {
   text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .ctOutlineDiv {
@@ -19,10 +20,13 @@
   display: block;
   margin: auto;
   width: 100%;
+  height:50%;
+  margin-top: 20%;
 }
 
 .roadmapButtonBox {
   width: 40%;
+  margin-top: 2em;
   margin-left: 30%;
   display: flex;
   justify-content: space-around;
@@ -44,7 +48,9 @@
   .CTLogo {
     display: block;
     margin: auto;
-    width: 75%;
+    width: 100%;
+    height:50%;
+    margin-top: 20%;
   }
   
   .roadmapButtonBox {
@@ -68,7 +74,9 @@
   .CTLogo {
     display: block;
     margin: auto;
-    width: 75%;
+    width: 100%;
+    height:50%;
+    margin-top: 20%;
   }
   
   .roadmapButtonBox {
