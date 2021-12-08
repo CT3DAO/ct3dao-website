@@ -10,18 +10,18 @@ const HomePage = () => (
       <h1>Connecticut's home for Web3 enthusiasts.</h1>
       <h2>We hope you'll join us.</h2>
     </div>
-    
-    <div className={homePageStyles.ctOutlineDiv}>
-      <CTLogo className={homePageStyles.CTLogo}/>
-    </div>
+
+    <SocialsBox />
 
     <div className={homePageStyles.roadmapButtonBox}>
       <a href="/roadmap/" target="_blank">
         <button className={homePageStyles.block}>Peep the Roadmap</button>
       </a>
     </div>
-
-    <SocialsBox />
+    
+    <div className={homePageStyles.ctOutlineDiv}>
+      <CTLogo className={homePageStyles.CTLogo}/>
+    </div>
   </div>
 )
 
