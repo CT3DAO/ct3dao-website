@@ -25,7 +25,7 @@ const Roadmap = () => (
         <h2>Phase 2</h2>
         <h3>Host events around the state to get to know, and learn from, each other.</h3>
         <p className={roadmapStyles.caption}>If we're going to own CT3 together, we should hang out! We'll order pizza, hack on projects, and give presentations on what we've learned.</p>
-        <h3>Create and distribute POAP tokens to whoever joins us for IRL events..</h3>
+        <h3>Create and distribute POAP tokens to whoever joins us for IRL events.</h3>
         <p className={roadmapStyles.caption}>In addition to your free ownership NFT, we want to make and hand out custom tokens for attending IRL events.</p>
       </div>
 
