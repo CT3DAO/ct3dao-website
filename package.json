@@ -23,13 +23,15 @@
     "typed.js": "^2.0.12"
   },
   "devDependencies": {
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "secret-blob": "^1.1.0"
   },
   "keywords": [
     "gatsby"
   ],
   "license": "0BSD",
   "scripts": {
+    "decrypt-font": "node decrypt-font.js",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
