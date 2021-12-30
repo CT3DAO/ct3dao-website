@@ -2,7 +2,7 @@
 title: IPFS - The Decentralized Web Is Finally Here
 author: "Henry Quinn"
 category: "Decentralized Web"
-date: "2000-01-27"
+date: "2021-01-27"
 type: "blog"
 desc: "Tech I wished for as a kid is finally here and the ramifications are huge."
 ---
