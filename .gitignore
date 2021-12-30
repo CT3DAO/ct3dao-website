@@ -121,4 +121,4 @@ dist
 CARBONRegular.woff
 
 # public dir
-.public/
+./public/
